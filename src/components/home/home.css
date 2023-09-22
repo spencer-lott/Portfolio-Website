@@ -1,0 +1,100 @@
+:root{
+    --primary: #1c92d2;
+    --secondary: #f2fcfe;
+}
+
+.home{
+    height: 100vh; 
+    width: 100vw;
+    margin: 0;
+    background: linear-gradient(135deg, var(--primary), var(--secondary))
+}
+
+/* .home-bg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+} */
+
+.home-bg{
+
+}
+
+.home-top{
+    /* border: dotted pink; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.name-header{
+    padding: 50px;
+    font-size: 64px;
+    text-shadow:1px 1px 0px rgba(0,0,0,0.25); 
+}
+
+.profile-img{
+    height: 400px;
+    border-radius: 50%;
+    border: solid rgb(121, 204, 230);
+    z-index: 999;
+}
+
+.img-container{
+    /* border: dotted black; */
+    z-index: 999;
+    margin-right: 50px;
+}
+
+.info-bar{
+    /* border: dotted lime; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: -60px;
+    background-color: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0px 12px 15px -6px rgba(0,0,0.3);
+}
+
+.info-bar-details{
+    display: flex;
+    padding-left: 25px;
+}
+
+.h3-details{
+    color: gray;
+    padding-left: 60px;
+    padding-top: 7px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.prj-header{
+    text-align: center;
+}
+
+.thumbnail{
+    width: 600px;
+    height: 400px;
+}
+
+.prj-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: medium;
+}
+
+.ghub-ptag{
+    color: black;
+}

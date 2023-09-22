@@ -1,0 +1,9 @@
+/* Add this to your CSS */
+.sidebar-container {
+    height: 100vh; /* Set the parent container height to 100% of the viewport height */
+  }
+  
+  .custom-sidebar {
+    height: 100%; /* Set the Sidebar height to 100% of its parent's height */
+  }
+  
