@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <Header onToggleMenu={toggleMenu} />
 
-      <div className='ui attached pushable' style={{height: '100vh'}}>
+      <div className='ui attached pushable' >
         <Sidebar toggleMenu={toggle} />
           <div className={classes}>
             <Home />
