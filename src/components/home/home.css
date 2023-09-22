@@ -53,7 +53,6 @@
     /* border: dotted lime; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     margin-bottom: 30px;
     background-color: whitesmoke;
     padding-top: 25px;
@@ -94,7 +93,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
-    font-size: medium;
+    font-size: large;
 }
 
 .ghub-ptag{
