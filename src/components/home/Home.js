@@ -21,9 +21,9 @@ export default function Home() {
                             <div className="info-bar-details">
                                 <h2>Junior Full-Stack Developer</h2>
                                 <div>
-                                    <h3 className="h3-details"><i class="bi bi-pin-map-fill"></i> Huntington-Charleston, WV area |
+                                    <h3 className="h3-details"><i className="bi bi-pin-map-fill"></i> Huntington-Charleston, WV area |
                                         <a href="https://github.com/spencer-lott" style={{color: "#000"}}><i className="bi bi-github"></i> Github</a> |
-                                        <a href="https://www.linkedin.com/in/spencer-k-lott/"><i class="bi bi-linkedin"></i>LinkedIn</a>
+                                        <a href="https://www.linkedin.com/in/spencer-k-lott/"><i className="bi bi-linkedin"></i>LinkedIn</a>
                                     </h3>
                                 </div>
                             </div>
