@@ -10,7 +10,6 @@ export default function Home() {
                     <Row>
                         <div className="home-top">
                         <h1 className="name-header">Spencer Lott</h1>
-
                             <div className="img-container">
                                 <img className="profile-img" src="/images/Spencer-Lott-Headshot-Copy-SQ.jpeg" alt="no image"/>
                             </div>
