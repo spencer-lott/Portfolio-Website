@@ -1,5 +1,4 @@
 import cn from 'classnames'
-import { useRef } from 'react';
 
 export default function Sidebar({toggleMenu}) {
 
@@ -10,6 +9,7 @@ const classes = cn(
   return (
     <div className={classes}>
         <ul>
+            <li className='item link'>-----</li>
             <li className='item link'>-----</li>
             <li className='item link'>-----</li>
             <li className='item link'>About Me</li>
