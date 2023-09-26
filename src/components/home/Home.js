@@ -1,8 +1,11 @@
-import React from "react";
 import "./home.css";
+import React from "react";
+import { useRef } from "react";
 import {Container, Row} from "reactstrap";
+// import { aboutRef, mainRef } from "../../App";
 
 export default function Home() {
+
     return (
         <>
             <div className="home">
@@ -49,137 +52,10 @@ export default function Home() {
                             </div>
                         </div>
                     </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-                    <Row>
-                        nonsense
-                    </Row>
-
                 </Container>
+            </div>
+            <div className="about">
+
             </div>
         </>
     );

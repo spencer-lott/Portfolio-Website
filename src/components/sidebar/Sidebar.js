@@ -11,6 +11,7 @@ const classes = cn(
         <ul>
             <li className='item link'>-----</li>
             <li className='item link'>-----</li>
+            <li className='item link'>-----</li>
             <li className='item link'>About Me</li>
             <li className='item link'>Projects</li>
             <li className='item link'>Accomplishments</li>
