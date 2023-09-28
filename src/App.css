@@ -1,13 +1,4 @@
-.sidebar-container {
-  display: flex; /* Use flex to create a column layout */
-  height: 100vh; /* Set the parent container height to 100% of the viewport height */
-}
 
-.custom-sidebar {
-  flex: 0 0 auto; /* Make the sidebar not grow or shrink */
-  height: 100%; /* Set the Sidebar height to 100% of its parent's height */
-  overflow-y: auto; /* Add scrollbars when content overflows */
-}
 
 :root{
   --primary: #1c92d2;
@@ -15,8 +6,8 @@
 }
 
 .main{
-  /* height: 100vh; 
-  width: 100vw; */
+  height: 100vh; 
+  width: 100vw;
   margin: 0;
   padding-top: 80px;
   background: linear-gradient(135deg, var(--primary), var(--secondary));
