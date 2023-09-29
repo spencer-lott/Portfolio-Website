@@ -63,30 +63,9 @@
   font-size: large;
 }
 
-.projects-container{
+
+.contact-footer{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 50px;
-}
-
-.prj-header{
-  text-align: center;
-}
-
-.thumbnail{
-  width: 600px;
-  height: 400px;
-}
-
-.prj-footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
-  font-size: large;
-}
-
-.ghub-ptag{
-  color: black;
+  /* flex-direction: column; */
+  justify-content: flex-end;
 }

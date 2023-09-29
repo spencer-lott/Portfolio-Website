@@ -1,0 +1,7 @@
+.about-container{
+    margin-top: 50px;
+    height: 100vh; 
+    margin: 0;
+    padding-top: 80px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
