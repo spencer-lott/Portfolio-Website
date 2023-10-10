@@ -4,7 +4,7 @@ export const About = () => {
     return (
     <section className="about-container">
         <div>
-            afasdf
+            Coming soon
         </div>
 
     </section>
