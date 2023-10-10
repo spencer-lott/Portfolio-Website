@@ -29,7 +29,6 @@ return (
                 </Row>
                 <Row>
                     <div className="contact-footer">
-                        <ul>(503) 935-3045</ul>
                         <ul>spklott@gmail.com</ul>
                     </div>
                 </Row>
